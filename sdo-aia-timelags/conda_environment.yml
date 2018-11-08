@@ -1,0 +1,12 @@
+name: ar-survey
+channels:
+- default
+- conda-forge
+dependencies:
+- sunpy # need master branch, but this gets us a lot of our dependencies
+- dask
+- distributed
+- dask-jobqueue
+- jupyterlab
+- pip:
+  - nbserverproxy
