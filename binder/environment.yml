@@ -51,6 +51,7 @@ dependencies:
   - graphviz
   - python-graphviz
   - gsw
+  - nodejs=8.9
   - pip:
     - click
     - jedi
