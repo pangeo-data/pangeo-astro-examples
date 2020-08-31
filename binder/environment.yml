@@ -7,3 +7,4 @@ dependencies:
   - gcsfs
   - sunpy
   - astropy
+  - nbserverproxy
