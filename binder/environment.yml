@@ -1,46 +1,9 @@
-name: root
 channels:
-  - defaults
   - conda-forge
 dependencies:
   - pangeo-notebook==2020.08.31
-  - gcsfs
-  - intake-astro
-  - intake-parquet
-  - cartopy
-  - intake-xarray
-  - astropy
-  - sunpy
-  - bokeh
-  - bqplot
-  - cython
-  - cytoolz
-  - dask-ml
-  - datashader
-  - fastparquet
-  - ipyleaflet
-  - holoviews
-  - libsodium
-  - lz4
-  - matplotlib
-  - nb_conda_kernels
-  - nomkl
-  - numba
-  - numcodecs
   - numpy
-  - pandas
-  - python-blosc
-  - pyzmq
-  - s3fs
   - scipy
-  - scikit-image
-  - scikit-learn
-  - xarray
-  - zarr
-  - intake-xarray
-  - graphviz
-  - python-graphviz
-  - gsw
-  - nbserverproxy
-  - click
-  - jedi
+  - gcsfs
+  - sunpy
+  - astropy
