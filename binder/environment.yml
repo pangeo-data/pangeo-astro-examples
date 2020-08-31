@@ -27,8 +27,8 @@ dependencies:
   - nomkl
   - numba
   - numcodecs
-  - numpy=1.15
-  - pandas=0.23
+  - numpy
+  - pandas
   - python-blosc
   - pyzmq
   - s3fs
