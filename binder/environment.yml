@@ -1,34 +1,24 @@
 name: root
 channels:
   - defaults
-  - pyviz/label/dev
-  - bokeh/label/dev
-  - intake
   - conda-forge
 dependencies:
+  - pangeo-notebook==2020.08.30
+  - gcsfs
   - intake-astro
   - intake-parquet
   - cartopy
   - intake-xarray
   - astropy
   - sunpy
-  - jupyterhub==0.9.2
-  - bokeh=0.13
+  - bokeh
   - bqplot
   - cython
   - cytoolz
-  - dask=0.19
   - dask-ml
   - datashader
-  - distributed=1.23
   - fastparquet
-  - gcsfs=0.1.2
-  - ipywidgets
   - ipyleaflet
-  - jupyter
-  - jupyterlab=0.35
-  - jupyterlab_launcher=0.13.1
-  - jupyter_client
   - holoviews
   - libsodium
   - lz4
@@ -45,16 +35,12 @@ dependencies:
   - scipy
   - scikit-image
   - scikit-learn
-  - xarray=0.10.9
-  - zarr=2.2.0
+  - xarray
+  - zarr
   - intake-xarray
   - graphviz
   - python-graphviz
   - gsw
-  - nodejs=8.9
-  - dask-kubernetes
   - nbserverproxy
-  - pip:
-    - click
-    - jedi
-    - git+https://github.com/sunpy/sunpy.git
+  - click
+  - jedi
