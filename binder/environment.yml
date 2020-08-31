@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - pangeo-notebook==2020.08.30
+  - pangeo-notebook==2020.08.31
   - gcsfs
   - intake-astro
   - intake-parquet
