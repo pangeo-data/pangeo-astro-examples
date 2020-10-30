@@ -1,9 +1,57 @@
+name: root
 channels:
+  - defaults
+  - pyviz/label/dev
+  - bokeh/label/dev
+  - intake
   - conda-forge
 dependencies:
-  - pangeo-notebook==2020.08.31
-  - numpy
-  - scipy
-  - gcsfs
+  - pangeo-notebook==2020.10.08
+  - intake-astro
+  - intake-parquet
+  - cartopy
+  - intake-xarray
+  - astropy=3.0.5
   - sunpy
-  - astropy
+  - bqplot
+  - cython
+  - cytoolz
+  - dask=0.19
+  - dask-ml
+  - datashader
+  - distributed=1.23
+  - fastparquet
+  - gcsfs=0.1.2
+  - ipywidgets
+  - ipyleaflet
+  - jupyter
+  - jupyter_client
+  - holoviews
+  - libsodium
+  - lz4
+  - matplotlib
+  - nb_conda_kernels
+  - nomkl
+  - numba
+  - numcodecs
+  - numpy=1.15
+  - pandas=0.23
+  - python-blosc
+  - pyzmq
+  - s3fs
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - xarray=0.10.9
+  - zarr=2.2.0
+  - intake-xarray
+  - graphviz
+  - python-graphviz
+  - gsw
+  - nodejs=8.9
+  - dask-kubernetes
+  - nbserverproxy
+  - sunpy=0.9.10
+  - pip:
+    - click
+    - jedi
