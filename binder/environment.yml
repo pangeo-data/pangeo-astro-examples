@@ -36,6 +36,7 @@ dependencies:
   - python-blosc
   - pyzmq
   - s3fs
+  - gcsfs
   - scipy
   - scikit-image
   - scikit-learn
