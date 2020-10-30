@@ -45,8 +45,6 @@ dependencies:
   - graphviz
   - python-graphviz
   - gsw
-  - nodejs=8.9
-  - dask-kubernetes
   - nbserverproxy
   - sunpy=0.9.10
   - pip:
